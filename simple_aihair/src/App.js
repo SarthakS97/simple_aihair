@@ -15,7 +15,8 @@ const bad_ref_links = [
   "https://i.pinimg.com/564x/1c/98/32/1c983209bd2a44d3b605a9730616587b.jpg",
   "https://i.pinimg.com/564x/5c/d8/9d/5cd89dda90478107cbd71feddea60ced.jpg",
   "https://i.pinimg.com/564x/d2/a8/1a/d2a81a6cdc465888f740473e02a16ae9.jpg",
-  "https://i.pinimg.com/736x/d6/39/71/d639710b2a9ec8ea38063779c40e748a.jpg"
+  "https://i.pinimg.com/736x/d6/39/71/d639710b2a9ec8ea38063779c40e748a.jpg",
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/1*-9ZFxvz4Ryh0lTchzKXgQA.jpeg"
 ];
 
 const DriveUpload = () => {
@@ -103,6 +104,7 @@ const DriveUpload = () => {
           <li>Please don't wear sunglasses</li>
           <li>Make sure you are the only one in the selfie. </li>
           <li>Do not cover your face</li>
+          <li>Too close to face</li>
         </ul>
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
           {bad_ref_links.map((link, index) => (
